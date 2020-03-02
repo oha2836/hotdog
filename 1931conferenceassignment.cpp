@@ -23,7 +23,7 @@ int main()
 {
 	scanf("%d", &n);
 	vector<pair<int, int>>vec(n);
-	int a, b;
+	
 	for ( int i = 0; i < n; i++ )
 	{
 		scanf("%d %d", &vec[i].second, &vec[i].first);
