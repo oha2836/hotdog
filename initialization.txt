@@ -1,0 +1,3 @@
+memset
+헤더 : #include <cstring>
+이차원 배열 초기화 : memset(arr, 0, sizeof(arr));
