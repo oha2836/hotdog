@@ -19,7 +19,7 @@ int dy[8] = { 1, 2, 2, 1, -1, -2, -2, -1 };
 int bfs(int a, int b)
 {
 	queue<pair<int, int>> q;
-	q.push(make_pair(y, x));
+	q.push(make_pair(b, a));
 	visit[b][a] = 1;
 	cnt[b][a] = 0;
 
